@@ -1,0 +1,6 @@
+*json*
+
+Javascript Object Notation
+Um formato de representação de dados
+Utiliza o formato de chave e valor (como o map)
+

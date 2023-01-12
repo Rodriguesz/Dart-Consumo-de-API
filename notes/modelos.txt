@@ -1,0 +1,7 @@
+Um modelo (ou model) dentro de um projeto são objetos que transportam dados
+entre processoas a fim de reduzir o número de chamadas de métodos
+
+Uma classe modelo pega somente os campos que você precisa de um json (DTO (Data transfer Object))
+
+DTO's são estruturas de dados planas que não contêm lógica de negócio. Contêm apenas armazenamento,
+métodos de acesso, métodos relacionados à serialização ou validação.

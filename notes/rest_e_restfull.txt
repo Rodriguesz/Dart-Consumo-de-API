@@ -1,0 +1,16 @@
+É a comunicação que utilizamos para buscar dados para nossos aplicativos
+
+*Rest*
+
+O que é: uma troca de informação entre sistemas utilizando o protocolo http.
+Em resumo, é um padrão de envio de dados utlizando a internet
+
+Caracteristiacas: Os aplicativos Rest têm um servidor que gerencia os dados e o estado 
+do aplicativo. O servidor se comunica com um cliente que lida com as interações do usuário.
+
+*Verbos HTTP*
+
+GET: Buscar recursos
+POST: Criar um novo recursos
+PUT: Atualizar recurso existente
+DELETE: Remover recurso
