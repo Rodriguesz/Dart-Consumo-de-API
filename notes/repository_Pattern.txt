@@ -1,0 +1,1 @@
+É um padrão de projeto utilizado para realizar a busca de dados seja de onde for

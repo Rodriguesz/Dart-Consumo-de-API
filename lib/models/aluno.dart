@@ -26,7 +26,9 @@ class Aluno {
       'id': id,
       'nome': nome,
       'nomeCursos': nomeCursos,
-      'cursos': cursos.map((curso) => curso.toMap()).toList(),
+      'cursos': cursos
+          .map((curso) => curso.toMapS())
+          .toList(), // transforma a lista de curso em lisa de <String, dynamic>
       'endereco': endereco.toMapS(),
     };
 
@@ -54,4 +56,10 @@ class Aluno {
 
   // 1 passo: recebe a string json e transforma em um mapa com o jsonDecode
   factory Aluno.fromJsonD(String json) => Aluno.fromMapD(jsonDecode(json));
+
+  @override
+  String toString() {
+    // TODO: implement toString
+    return 'Aluno: $nome ($id)';
+  }
 }

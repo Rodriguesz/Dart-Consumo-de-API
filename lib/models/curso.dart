@@ -17,7 +17,7 @@ class Curso {
   // metodo que pega o nosso objeto Curso e transforma em um Objeto Map<String, dynamic>
   // metodo de instância (precisa ter os dados preenchidos no momento da instânciação para transformar)
   // passo 1 serialização
-  Map<String, dynamic> toMap() {
+  Map<String, dynamic> toMapS() {
     return {
       'id': id,
       'nome': nome,
@@ -29,7 +29,7 @@ class Curso {
   // metodo que pega um Map<String, dynamic>  e transforma em um json pelo pacote convert (jsonEncode)
   // metodo de instância (precisa ter os dados preenchidos no momento da instânciação para transformar)
   // passo 2 serialização
-  String toJsonS() => jsonEncode(toMap());
+  String toJsonS() => jsonEncode(toMapS());
 
   //? desserialização: transforma o json em um objeto
 
